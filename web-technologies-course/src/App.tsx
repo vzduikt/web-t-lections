@@ -5,10 +5,12 @@ import Lecture1 from '@/lectures/Lecture1';
 const App: React.FC = () => {
   return (
     <Router>
-      <div className="min-h-screen bg-gray-50">
+      <div className="min-h-screen bg-gray-50 flex flex-col">
         <header className="bg-blue-700 text-white p-4">
           <div className="container mx-auto flex justify-between items-center">
+          <Link to="/lecture1" className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded inline-block">
             <h1 className="text-2xl font-bold">Веб Технології</h1>
+            </Link>
             <nav>
               <ul className="flex space-x-4">
                 <li>

@@ -8,11 +8,12 @@ import HTMLIntroSlide from './slides/HTMLIntroSlide';
 import HTMLStructureSlide from './slides/HTMLStructureSlide';
 import HTMLTagsSlide from './slides/HTMLTagsSlide';
 import InteractiveEditorSlide from './slides/InteractiveEditorSlide';
+import HTMLHeadMetaSlide from './slides/HTMLHeadMetaSlide';
 
 const Lecture1: React.FC = () => {
   const slides = [
     {
-      title: "Як працюють вебсайти та Інтернет",
+      title: "Як працюють веб-сайти",
       component: <WebsitesIntroSlide />
     },
     {
@@ -22,6 +23,10 @@ const Lecture1: React.FC = () => {
     {
       title: "Структура HTML-документа",
       component: <HTMLStructureSlide />
+    },
+    {
+      title: "Елемент HEAD та метадані",
+      component: <HTMLHeadMetaSlide />
     },
     {
       title: "Базові теги HTML",

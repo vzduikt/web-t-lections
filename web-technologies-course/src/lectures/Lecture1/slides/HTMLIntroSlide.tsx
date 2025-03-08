@@ -7,7 +7,7 @@ const HTMLIntroSlide: React.FC = () => {
       <p className="mb-4">HTML (HyperText Markup Language) - це стандартна мова розмітки для створення веб-сторінок.</p>
       <div className="flex justify-center mb-6">
         <div className="bg-blue-100 p-4 rounded-lg max-w-md">
-          <p className="font-semibold">В цьому курсі ми дізнаємося:</p>
+          <p className="font-semibold">В цій лекції ми дізнаємося:</p>
           <p>• Структуру HTML-документа</p>
           <p>• Основні теги HTML</p>
           <p>• Як створити просту веб-сторінку</p>

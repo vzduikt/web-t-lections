@@ -43,7 +43,7 @@ const Slide: React.FC<SlideProps> = ({
             {Array.from({ length: totalSlides }).map((_, index) => (
               <button
                 key={index}
-                className={`w-3 h-3 rounded-full ${currentIndex === index ? 'bg-blue-500' : 'bg-gray-300'}`}
+                className={`w-3 h-3 rounded-full ${currentIndex === index ? 'bg-blue-500' : 'cursor-pointer bg-gray-300'}`}
                 onClick={() => onGoToSlide(index)}
               />
             ))}

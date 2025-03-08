@@ -1,0 +1,18 @@
+# Ігнорування файлів і директорій
+node_modules
+dist
+build
+.next
+.cache
+coverage
+public
+.DS_Store
+*.log
+*.lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.env
+.env.*
+*.min.js
+*.min.css
