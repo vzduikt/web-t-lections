@@ -1,0 +1,39 @@
+/* Підключення базових стилів Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ваші власні глобальні стилі можна додати тут нижче */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Власні утиліти Tailwind з використанням директиви @layer */
+@layer components {
+  .btn-primary {
+    @apply bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded;
+  }
+  
+  .slide-container {
+    @apply p-6 max-w-6xl mx-auto;
+  }
+  
+  .slide-card {
+    @apply bg-white rounded-lg shadow-lg overflow-hidden;
+  }
+  
+  .slide-header {
+    @apply bg-blue-600 text-white p-4;
+  }
+  
+  .slide-content {
+    @apply p-6 min-h-96;
+  }
+  
+  .slide-footer {
+    @apply bg-gray-100 p-4 flex justify-between;
+  }
+}
