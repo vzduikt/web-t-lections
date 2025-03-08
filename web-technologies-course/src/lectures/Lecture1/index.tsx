@@ -6,9 +6,13 @@ import useSlideNavigation from '@/hooks/useSlideNavigation';
 import WebsitesIntroSlide from './slides/WebsitesIntroSlide';
 import HTMLIntroSlide from './slides/HTMLIntroSlide';
 import HTMLStructureSlide from './slides/HTMLStructureSlide';
-import HTMLTagsSlide from './slides/HTMLTagsSlide';
-import InteractiveEditorSlide from './slides/InteractiveEditorSlide';
 import HTMLHeadMetaSlide from './slides/HTMLHeadMetaSlide';
+import HTMLAttributesSlide from './slides/HTMLAttributesSlide';
+import HTMLTagsSlide from './slides/HTMLTagsSlide';
+import HTMLSemanticSlide from './slides/HTMLSemanticSlide';
+import HTMLTablesSlide from './slides/HTMLTablesSlide';
+import HTMLFormsSlide from './slides/HTMLFormsSlide';
+import InteractiveEditorSlide from './slides/InteractiveEditorSlide';
 
 const Lecture1: React.FC = () => {
   const slides = [
@@ -17,7 +21,7 @@ const Lecture1: React.FC = () => {
       component: <WebsitesIntroSlide />
     },
     {
-      title: "Створення веб-сторінки з використанням базових тегів HTML",
+      title: "Вступ до HTML",
       component: <HTMLIntroSlide />
     },
     {
@@ -29,8 +33,24 @@ const Lecture1: React.FC = () => {
       component: <HTMLHeadMetaSlide />
     },
     {
+      title: "Атрибути HTML-тегів",
+      component: <HTMLAttributesSlide />
+    },
+    {
       title: "Базові теги HTML",
       component: <HTMLTagsSlide />
+    },
+    {
+      title: "Семантичні теги HTML5",
+      component: <HTMLSemanticSlide />
+    },
+    {
+      title: "Таблиці в HTML",
+      component: <HTMLTablesSlide />
+    },
+    {
+      title: "Форми в HTML",
+      component: <HTMLFormsSlide />
     },
     {
       title: "Інтерактивний редактор",

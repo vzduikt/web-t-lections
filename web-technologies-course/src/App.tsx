@@ -8,9 +8,7 @@ const App: React.FC = () => {
       <div className="min-h-screen bg-gray-50 flex flex-col">
         <header className="bg-blue-700 text-white p-4">
           <div className="container mx-auto flex justify-between items-center">
-          <Link to="/lecture1" className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded inline-block">
-            <h1 className="text-2xl font-bold">Веб Технології</h1>
-            </Link>
+          <h1 className="text-2xl font-bold">WEB-технології та WEB-дизайн</h1>
             <nav>
               <ul className="flex space-x-4">
                 <li>
@@ -31,11 +29,11 @@ const App: React.FC = () => {
           <Routes>
             <Route path="/" element={
               <div className="text-center p-10">
-                <h2 className="text-3xl font-bold mb-6">Курс Веб Технологій</h2>
+                <h2 className="text-3xl font-bold mb-6">Курс WEB-технології та WEB-дизайн</h2>
                 <p className="mb-4">Оберіть лекцію зі списку вище, щоб розпочати навчання.</p>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
                   <div className="bg-white p-6 rounded-lg shadow-md">
-                    <h3 className="font-bold text-xl mb-2">Лекція 1: HTML</h3>
+                    <h3 className="font-bold text-xl mb-2">Лекція 1: Створення простої веб-сторінки з використанням базових тегів HTML</h3>
                     <p className="text-gray-600 mb-4">Знайомство з HTML, структура документа, основні теги.</p>
                     <Link to="/lecture1" className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded inline-block">
                       Перейти до лекції
@@ -70,7 +68,7 @@ const App: React.FC = () => {
 
         <footer className="bg-blue-800 text-white p-4 mt-auto">
           <div className="container mx-auto text-center">
-            <p>&copy; {new Date().getFullYear()} Курс Веб Технологій</p>
+            <p>&copy; {new Date().getFullYear()} Курс WEB-технології та WEB-дизайн</p>
           </div>
         </footer>
       </div>

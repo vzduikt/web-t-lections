@@ -3,7 +3,6 @@ import React from 'react';
 const HTMLTagsSlide: React.FC = () => {
   return (
     <div>
-      <h2 className="text-2xl font-bold mb-4">Найважливіші теги HTML</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
         <div>
           <h3 className="font-bold mb-2">Заголовки:</h3>
