@@ -15,10 +15,10 @@ const App: React.FC = () => {
         <main className="container mx-auto py-8">
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/lecture1" element={<Lecture1 />} />
-            <Route path="/lecture2" element={<Lecture2 />} />
-            <Route path="/lecture3" element={<Lecture3 />} />
-            <Route path="/lecture4" element={<Lecture4 />} />
+            <Route path="/lecture1" element={<Lecture4 />} />
+            <Route path="/lecture2" element={<Lecture1 />} />
+            <Route path="/lecture3" element={<Lecture2 />} />
+            <Route path="/lecture4" element={<Lecture3 />} />
             <Route path="/lecture5" element={<Lecture5 />} />
           </Routes>
         </main>
