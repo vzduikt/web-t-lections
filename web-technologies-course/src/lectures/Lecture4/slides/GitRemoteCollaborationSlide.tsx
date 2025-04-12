@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const GitRemoteCollaborationSlide = () => {
   const [activeSection, setActiveSection] = useState('remote-repos');
