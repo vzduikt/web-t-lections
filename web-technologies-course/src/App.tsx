@@ -2,8 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Lecture1 from '@/lectures/Lecture1';
 import Lecture2 from '@/lectures/Lecture2';
-import { Header, HomePage, Footer } from '@components';
 import Lecture3 from './lectures/Lecture3';
+import Lecture4 from './lectures/Lecture4';
+import { Header, HomePage, Footer } from '@components';
 
 const App: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const App: React.FC = () => {
             <Route path="/lecture1" element={<Lecture1 />} />
             <Route path="/lecture2" element={<Lecture2 />} />
             <Route path="/lecture3" element={<Lecture3 />} />
+            <Route path="/lecture4" element={<Lecture4 />} />
           </Routes>
         </main>
         <Footer />

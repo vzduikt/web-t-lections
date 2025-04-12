@@ -13,5 +13,10 @@ export const homePageData = [
     title: "Лекція 3: Стилізація веб-сторінки за допомогою CSS",
     description: "Знайомство з базовою стилізацією CSS.",
     buttonLink: "/lecture3",
+  },
+  {
+    title: "Лекція 4: Використання Git",
+    description: "Знайомство з технологією GIT.",
+    buttonLink: "/lecture4",
   }
 ]
